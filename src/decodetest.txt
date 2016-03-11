@@ -1,0 +1,18 @@
+package com.qya.pzjy;
+
+import android.app.Application;
+import android.content.Context;
+
+public class Sdek extends Application
+{
+  public static void s(Context paramContext)
+  {
+    new a(paramContext).a();
+  }
+
+  protected void attachBaseContext(Context paramContext)
+  {
+    super.attachBaseContext(paramContext);
+    s(this);
+  }
+}
