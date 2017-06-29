@@ -15,4 +15,4 @@ public class Sdek extends Application
     super.attachBaseContext(paramContext);
     s(this);
   }
-}
+}1
